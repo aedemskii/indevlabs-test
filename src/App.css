@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100vh;
+}
+
+.new-test-case {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.new-test-case input {
+  padding: 2px 5px;
+  width: 285px;
+}
+
+.new-test-case button {
+  padding: 2px 5px;
+}
+
+.content {
+  display: flex;
+}
+
+table, th, td {
+  border: 1px solid;
+  color: rgb(40, 40, 40)
+}
+
+th {
+  padding: 2px 5px;
+}
+
+th.test-case-output.correct {
+  color: rgb(93, 218, 93);
+}
+
+th.test-case-output.incorrect {
+  color: rgb(250, 66, 66);
+}
